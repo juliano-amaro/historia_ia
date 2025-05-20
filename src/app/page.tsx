@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 export default function Home() {
-  const baseUrl = "http://127.0.0.1:5000";
+  const baseUrl = "https://back-end-historiaia-five.vercel.app";
 
   const [titulo, setTitulo] = useState<string>("");
   const [vilao, setVilao] = useState<string>("");
